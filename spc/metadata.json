@@ -1,0 +1,6 @@
+{
+  "name": "إدارة آليات حقول دير الزور - SPC",
+  "description": "نظام إدارة ومتابعة آليات ومعدات فروع الشركة السورية للبترول (SPC) وحقول دير الزور وجداول الصيانة والجاهزية الفنية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Hide app navigation and headers during printing */
+  #main-sidebar,
+  header,
+  footer,
+  #btn-export-pdf,
+  select,
+  input,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Ensure official document expands to 100% page width */
+  #official-spc-report {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10mm !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
